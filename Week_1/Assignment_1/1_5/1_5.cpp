@@ -21,10 +21,6 @@ int main()
             cout << "*";
         }
 
-        for (int j = 1; j < spaces; j++) {
-            cout << " ";
-        }
-
         cout << endl;
     }
 }

@@ -28,8 +28,6 @@ int main()
         } else if (i > x) {
             int stars = ((2*x - i)+1);
             int spaces = (2*(i - x-1));
-            //int stars = (i - x-1);
-            //int spaces = (2*(i-1));
 
             for (int j = 0; j < stars; j++) {
                 cout << "*";

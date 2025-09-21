@@ -9,15 +9,15 @@ int main()
     cin >> n;
 
     vector<int> array(n);
-    int sum = 0;
-
+    int largest = 0;
+    int x;
     for (int i = 0; i < n; i++) {
-        cin >> array[i];
-        if (i % 2 == 0) {
-            sum += array[i];
+        cin >> x;
+        if (x > largest) {
+            largest = x;
         }
     }
 
-    cout << sum;
+    cout << largest;
 
 }

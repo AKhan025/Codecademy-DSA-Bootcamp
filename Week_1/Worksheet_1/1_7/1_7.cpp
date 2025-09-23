@@ -5,8 +5,8 @@ using namespace std;
 
 vector<int> reverseArray(vector<int> &array) {
     vector<int> ans;
-    for (int i = array.size(); i > 0; i--) {
-        ans.push_back(i);
+    for (int i = array.size() - 1; i >= 0; i--) {
+        ans.push_back(array[i]);
     }
 
     return ans;

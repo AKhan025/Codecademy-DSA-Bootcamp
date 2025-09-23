@@ -11,12 +11,9 @@ vector<int> calculateDiagonal(vector<vector<int>> &array, int n) {
         for (auto j: i) {
             if (num < n) {
                 sum += array[num][num];
-                //cout << array[num][num] << endl;
-                //cout << sum << endl;
                 num += 1;
             }
         }
-        //cout << sum;
     }
     ans.push_back(sum);
     return ans;
@@ -40,6 +37,4 @@ int main()
     for (auto i: ans) {
         cout << i << endl;
     }
-
-
 }
